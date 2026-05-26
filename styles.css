@@ -1,0 +1,108 @@
+body {
+  background: #F7F4ED;
+  height: 100vh;
+  color: #000000;
+}
+
+.hero {
+  margin-left: 50px;
+  background-image: url(medium-bg.webp);
+  background-position: top center;
+}
+.logo {
+  float: left;
+  margin: 15px 0 50px 50px;
+  max-width: 7rem;
+  height: auto;
+
+}
+header {
+  height: 5rem;
+  font-family:-apple-system,"Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  border-bottom: 1px solid black;
+  height: 4rem; 
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem; 
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 1.25em;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+  font-size: 0.9rem;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.btn {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+}
+
+h1 {
+  color: #242424;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 7.5rem;
+  font-weight: 400;
+  letter-spacing: -0.055em;
+}
+
+h3 {
+  color: #242424;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+  font-weight: inherit;
+}
+
+.btn-2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  background: #242424;
+  color: #ffffff;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-top: 20px;
+}
+
+.btn-2:hover{
+  background: #000000;
+}
+
+footer {
+  border-top: 1px solid black;
+  margin-top: 20px;
+}
+
+.foot-links {
+  font-family:-apple-system,"Segoe UI","Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+  list-style: none;
+  padding: 12px 0;
+  gap: 1rem;
+
+}
+
+/* #1A8917  */
